@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>{{site.title}}</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Your awesome title" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="http://victorhwang.xyz" />
+<meta property="og:url" content="http://victorhwang.xyz" />
+<meta property="og:site_name" content="Your awesome title" />
+<script type="application/ld+json">
+{"name":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","url":"http://localhost:4000/","headline":"Your awesome title","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css">
+<!-- <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head> -->
+
+<body>
+<section class="main">
+
+	<header class="sectiontitle">
+	  <h1 class="homelink">{{ site.title }}</h1>
+	  <p class="contactlink"><a href="mailto:vfhwang@gmail.com">vfhwang@gmail.com</a></p>
+	</header>
+
+
+	<section class="projects leftcolumn">
+
+	<p class="intro leftcolumn">{{ site.description }} <a href="/about">More info</a></p>
+
+
+	  {% for post in site.categories.casestudies %}
+
+
+	    <div class="postinfo leftcolumn"><ul><li class="bigbullet" style="color:#{{ post.colour }}"><p class="title">{{post.title}}</p></li></ul><p>{{post.description}}
+				<!-- <a href={{post.url}}>View case study</a> -->
+				<a href="#">Coming soon</a>
+			</p></div>
+
+	  {% endfor %}
+
+</section>
+
+</section>
+
+
+	<div class="journal">
+		<section class="main">
+
+	<div class="sectiontitle"><h2>Journal</h2></div>
+	{% for post in site.categories.journal %}
+
+		<div class="journalpost">
+			<div class="journaltitle">
+				<ul><li class="bigbullet"><p class="title">{{post.displaydate}}</p></li></ul>
+				<p class="journaltitle">{{post.title}}</p>
+			</div>
+				<div class="journalimages">
+					{% for image in post.images %}
+					<img src="{{site.url}}/assets/journal/{{image.image}}">
+					{% endfor %}
+				</div>
+				<div class="journalcontent">
+				{{post.content}}</div>
+
+</div>
+
+
+	{% endfor %}
+
+<footer>Victor Hwang 2018</footer>
+
+	</section>
+
+
+	</div>
+
+
+</body>
+</html>

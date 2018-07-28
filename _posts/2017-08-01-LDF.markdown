@@ -1,0 +1,10 @@
+---
+layout: post
+title:  London Design Festival
+displaydate: September 2017
+categories: journal
+images:
+- image: LDF1.jpg
+  description: none
+---
+As part of London Design Festival the first public cross-gov meet up happened at the Design Museum. I gave a 5 minute update on behalf of the design team on our progress at Parliament.

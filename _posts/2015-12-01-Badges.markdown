@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Badges
+displaydate: December 2015
+categories: journal
+images:
+- image: badges1.jpg
+  description: none
+- image: badges2.jpg
+  description: none
+---
+I’ve decided that I wanted to make my own badges. I thought the idea of making them out of mirror was fun - subverting the usual requirement of a badge to have a message.
+
+I made one a circle, the natural shape for a badge, and one a shard, the natural shape for a mirror. I made a few pairs and packaged them up to sell.

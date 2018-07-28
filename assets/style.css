@@ -1,0 +1,542 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+    v2.0b1 | 201101
+    NOTE:WORK IN PROGRESS
+    USE WITH CAUTION AND TEST WITH ABANDON */
+
+
+    @font-face {
+        font-family: '/fonts/Akzidenz-Grotesk BQ';
+        src: url('akzidenzgrotesk-regular-webfont.woff2') format('woff2'),
+            url('akzidenzgrotesk-regular-webfont.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: '/fonts/Akzidenz-Grotesk BQ';
+        src: url('akzidenzgrotesk-italic-webfont.woff2') format('woff2'),
+            url('akzidenzgrotesk-italic-webfont.woff') format('woff');
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    * {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+/* remember to define visible focus styles!
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* box-sizing reset */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+button {
+     background:none!important;
+     color:inherit;
+     border:none;
+     font: inherit;
+     color:#2F3140;
+     cursor: pointer;
+     text-decoration: none;
+     border-radius:40px;
+     border:2px solid rgba(47,49,64,255);
+     text-align: center;
+     padding:6px 20px;
+    margin:20px 0 0 82px;
+}
+
+button:hover{
+  color:#4700B2;
+  border:2px solid #4700B2;
+
+}
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+
+body{
+  font-family:"Akzidenz-Grotesk BQ", 'Arial', sans-serif;
+  font-weight: 400;
+  line-height:1.3;
+  font-size:1.25em;
+  color: #2F3140;
+  padding-bottom:260px;
+}
+
+pre{
+  text-align: center;
+}
+
+
+
+a{
+  /* border-bottom:2px solid #4700B2; */
+  color:#006DF5;
+  text-decoration: none;
+  /* text-decoration:underline #006DF5; */
+}
+
+a:hover{
+  color:#4700B2;
+}
+
+
+
+h1{
+}
+
+h2{
+}
+
+h3{
+  font-style:italic;
+}
+
+ul{
+  list-style: none;
+  /* display:inline-block;
+  padding-left:82px; */
+}
+
+.bigbullet{
+  /* border-bottom:2px solid #4700B2; */
+  list-style:disc outside none;
+  font-size:40px;
+}
+
+.contactlink{
+  display:inline;
+}
+
+
+
+
+.workitem{
+  padding-bottom:80px;
+}
+
+.page{
+  margin:0 auto;
+  max-width:1024px;
+  padding:0 60px;
+  overflow: hidden;
+
+}
+
+.journal{
+  background-color: #C8C8C8;
+}
+
+
+footer{
+  width:100%;
+  position: fixed;
+  z-index: 1;
+  bottom:0;
+  left:0;
+  padding: 40px 0px;
+  color:white;
+  text-align: center;
+  background-color: #180146;
+  font-family: monospace;
+  line-height: 1;
+}
+
+.sectiontitle{
+  text-align: left;
+  padding:100px 0 30px;
+}
+
+
+
+section{
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 36px;
+  grid-row-gap: 24px;
+  padding:24px 0;
+}
+
+
+header{
+  display:flex;
+  justify-content: space-between;
+}
+.bigbullet h1{
+  display:inline;
+  font-size:1.25rem;
+  vertical-align: 25%;
+  line-height: 1;
+}
+
+.homelink{
+  display:inline;
+  position: relative;
+
+}
+
+.bio img{
+  width:100%;
+  object-fit: cover;
+
+}
+
+.biogrid1{
+  grid-column: col-start / span 5;
+}
+
+.biogrid2{
+  grid-column: col-start 4 / span 5;
+}
+
+.biogrid3{
+  grid-column: col-start 9 / span 4;
+}
+
+
+img{
+  align-self:baseline;
+  position:relative;
+}
+
+.bio1{
+  width:45%;
+  padding: 24px 36px 0 0;
+
+}
+
+li{
+  line-height:1.6;
+}
+
+.pagewrapper{
+  padding:0;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.projectlogo img, .postheaderlogo img{
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.projectlogo{
+  height:165px;
+  grid-column: col-start / span 6;
+  background-color: #4700B2;
+  /* float:left; */
+  /* margin:0 24px 0 0; */
+  text-align:center;
+  position: relative;
+
+}
+
+.projectdescription{
+  grid-column: col-start 7 / span 6;
+}
+
+.decorativetext{
+  padding:0 30px;
+}
+
+.decorativetext.l{
+  padding:0 30px 0 0;
+}
+
+.decorativetext.r{
+  padding:0 0 0 30px;
+}
+
+.decorativetext.link{
+  padding:0 10px 0 0;
+}
+
+/* .post p, .post figure, .post ol{
+  grid-column: col-start 1 / span 8;
+} */
+
+.postimage{
+  grid-column: col-start 1 / span 12 !important;
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 36px;
+  grid-row-gap: 24px;
+  margin:24px 0;
+}
+
+.post > .homelink::before{
+  content:'\21A9';
+  color:#949494;
+  position:absolute;
+  left:-34px;
+  top:2px;
+}
+
+.post p, .post ol{
+  grid-column: col-start 1 / span 8;
+}
+
+.postimage img{
+  grid-column: col-start / span 8;
+}
+
+.postimage, .postimagebig em{
+  color:#949494;
+}
+
+.postimage em{
+  grid-column: col-start 9/ span 4;
+}
+
+.post .postimagebig{
+  grid-column: col-start / span 12;
+}
+
+.post p img{
+  width:100%;
+}
+
+
+
+.postheader{
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 36px;
+  grid-row-gap: 24px;
+  margin:24px 0;
+}
+
+.postheaderlogo{
+  grid-column: col-start 5 / span 8;
+  height:165px;
+  position: relative;
+  background-color: rgba(255,255,255,0.1);
+  background-blend-mode: multiply;
+
+}
+
+/* .postinfo::before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+} */
+
+.postinfo{
+  grid-column: col-start / span 5;
+  padding-bottom:60px;
+}
+
+/* .postinfoinner{
+  display: inline-block;
+vertical-align: middle;
+} */
+
+.footermobile{
+  display:none;
+}
+
+
+@media (max-width:1024px) {
+
+  section{
+    grid-gap: 36px;
+    grid-row-gap: 12px;
+  }
+
+
+  /* .postinfo{
+    order:2;
+    height:140px;
+    grid-column: col-start / span 12;
+  } */
+
+
+
+  .post p, .post figure, .post ol{
+    grid-column: col-start 3 / span 10;
+  }
+
+  .post figure.big{
+    grid-column: col-start  1/ span 12;
+  }
+
+  .footerdesktop{
+    display:none;
+  }
+
+  .footermobile{
+    display:inline-block;
+  }
+
+  .biogrid1{
+    grid-column: col-start / span 4;
+    grid-row: 1 / span 2;
+    /* height:130px; */
+  }
+
+  .biogrid2{
+    grid-column: col-start 5 / span 7;
+
+  }
+
+  .biogrid3{
+    grid-column: col-start 5 / span 7;
+
+  }
+
+  .projectlogo{
+    height:165px;
+    grid-column: col-start / span 6;
+  }
+
+  .projectdescription{
+    grid-column: col-start 7 / span 6;
+  }
+
+  .projectlogo img{
+  width:66%;
+  }
+
+  .postheaderlogo img{
+  width:33%;
+  }
+
+
+}
+
+@media (max-width:600px) {
+
+
+  body{
+    line-height:1.6;
+    font-size:1rem;
+    padding-bottom:200px;
+  }
+
+  .projectlogo img{
+  width:33%;
+  }
+
+  .postheaderlogo img{
+  width:50%;
+  }
+
+  .post p, .post figure, .post ol{
+    grid-column: col-start  / span 12;
+    overflow:hidden;
+  }
+
+  section{
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 12px;
+    grid-row-gap: 12px;
+    padding:24px 0;
+  }
+
+  .page{
+    padding:0 48px;
+  }
+
+  .biogrid1{
+    grid-column: col-start / span 6;
+    /* grid-row: 2; */
+    display:block;
+    height:auto;
+  }
+
+  .biogrid2{
+    grid-column: col-start / span 12;
+    /* grid-row: 2; */
+    display:block;
+
+  }
+
+  .biogrid3{
+    grid-column: col-start / span 12;
+    display:block;
+
+  }
+
+  .projectlogo{
+    height:100px;
+    grid-column: col-start / span 12;
+  }
+
+  .projectdescription{
+    grid-column: col-start / span 12;
+  }
+
+}
