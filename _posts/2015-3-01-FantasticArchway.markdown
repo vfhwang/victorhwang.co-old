@@ -4,7 +4,7 @@ title:  Fantastic Archway
 displaydate: March 2015
 categories: journal
 images:
-- image: fantasticarchway1.jpg
+- image: fantasticarchway1.png
   description: none
 ---
 Fantastic Archway, a never-to-be-completed architectural proposal, is an investigation into the power of imaginary architecture.

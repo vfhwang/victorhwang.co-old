@@ -3,7 +3,7 @@
 \*------------------------------------*/
 /* http://meyerweb.com/eric/tools/css/reset/
     v2.0b1 | 201101
-    NOTE:WORK IN PROGRESS
+    NOTE:WORK IN PROGRESS WORK IN PROGRESS
     USE WITH CAUTION AND TEST WITH ABANDON */
 
 
@@ -264,7 +264,7 @@ ol > li {
   grid-column: col-start 1 / span 12;
 }
 
-.postimage img{
+.postimage img, .postimage video{
   grid-column: col-start / span 12;
 }
 
@@ -280,7 +280,7 @@ ol > li {
   grid-column: col-start / span 12;
 }
 
-.post p img{
+.post p img, .post p video{
   width:100%;
 }
 
@@ -375,6 +375,7 @@ ol > li {
 }
 
 .postpage > .homelink{
+    padding:0;
 text-decoration: underline;
   }
 
@@ -598,7 +599,7 @@ text-decoration: underline;
     grid-column: col-start 1 / span 8;
   }
 
-  .postimage img{
+  .postimage img, .postimage video{
     grid-column: col-start / span 8;
   }
 

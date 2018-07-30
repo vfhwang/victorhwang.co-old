@@ -4,7 +4,7 @@ title:  D&AD New Blood Academy
 displaydate: May 2015
 categories: journal
 images:
-- image: dandad1.jpg
+- image: dandad1.png
   description: none
 ---
 Along with 40 or so others, I took part in the 2015 D&AD Academy. As part of the two weeks we worked in teams with Innocent Smoothies to develop their new ad campaign. I was invited to take part off the back of my D&AD New Blood entry, [BBC Flick](https://www.dandad.org/awards/new-blood/2015/bbc/2694/bbc-flick/), which won a wooden pencil.

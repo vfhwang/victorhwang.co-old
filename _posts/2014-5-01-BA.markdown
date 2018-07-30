@@ -4,7 +4,7 @@ title:  B_____  A_____
 displaydate: August 2014
 categories: journal
 images:
-- image: BA1.jpg
+- image: BA1.png
   description: none
 ---
 Branding for the Kingston degree show.

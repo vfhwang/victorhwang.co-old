@@ -4,7 +4,7 @@ title:  What would Carl Andre do?
 displaydate: December 2014
 categories: journal
 images:
-- image: WWCAD1.jpg
+- image: WWCAD1.png
   description: none
 ---
 The Art World has changed a lot since the Tate sparked national outrage by buying Equivalent VIII by Carl Andre. I wanted to pay homage to the 40th birthday of its first public outing in the Tate.
