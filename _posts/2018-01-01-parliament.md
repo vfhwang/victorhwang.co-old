@@ -3,9 +3,9 @@ layout: post
 org:  "UK Parliament"
 year:  "2017"
 team:  "Product team w/ 3 designers"
-date:   2017-01-01 12:00:00 -0600
+date:   2017-03-04 12:00:00 -0600
 title: "UK Parliament - Case Study"
-categories: casestudies
+categories: casestudies-wip
 description: "Building the foundations of a new website for Parliament, making it easier for people to get to know their MPs and the Lords."
 colour: 4700B2
 
