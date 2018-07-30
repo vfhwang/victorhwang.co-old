@@ -6,7 +6,7 @@ permalink: /about/
 {:class="portrait"}
 
 {:class="portrait"}
-![Victor Hwang]({{ "/assets/victorPortrait.png"}})
+![Victor Hwang]({{ "/assets/images/about/victorPortrait.png"}})
 Hello, I’m Victor. Right now I’m an interaction designer at Parliament, where we’re working to make the democratic process more transparent and easier to understand.
 
 This involves unpicking not only what people need from Parliament and how it fits into their lives, but also a 900 year old institution and its often arcane processes.
