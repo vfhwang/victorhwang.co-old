@@ -64,7 +64,8 @@ footer,header,hgroup,menu,nav,section{
 }
 body{
     line-height:1;
-
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 ol,ul{
     list-style:none;

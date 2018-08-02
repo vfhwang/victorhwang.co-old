@@ -9,6 +9,6 @@ images:
 ---
 <!-- - image: mettle2.png
   description: none -->
-Mettle, a small team of talented industrial designers and engineers, needed another pair of hands to help facilitate a series of workshops with GE Healthcare in America.
+[Mettle](https://mettle-studio.com), a small team of talented industrial designers and engineers, needed another pair of hands to help facilitate a series of workshops with GE Healthcare in America.
 
 In each workshop I led a diverse team of GE employees, all non-designers, from research through ideation to prototyping and pitching in a matter of days. For example, in the Boston based workshop we created George, an AI lab assistant.

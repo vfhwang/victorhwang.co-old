@@ -26,4 +26,4 @@ Want to work together? Talk to me —
 
 <a href="mailto:{{site.email}}">{{site.email}}</a>
 
-<a href="https://twitter.com/{{site.twitter_username}}">{{site.twitter_username}}</a>
+<a href="https://twitter.com/{{site.twitter.username}}">{{site.twitter.username}}</a>
