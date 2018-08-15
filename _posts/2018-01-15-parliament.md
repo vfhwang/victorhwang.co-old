@@ -35,7 +35,7 @@ Parliament's current website doesn't get close to articulating this. It was born
 
 {:class="postimage"}
 <img src="{{page.imagesurl}}small/current-site.png"
-alt="The current website. Unresponsive, cluttered and from a different era." data-echo="{{page.imagesurl}}current-site.jpeg">
+alt="The current website. Unresponsive, cluttered and from a different era." data-echo="{{page.imagesurl}}current-site.jpg">
 *The current website. Unresponsive, cluttered and from a different era.*
 
 I believe that this publishing mentality stems from the way Parliament talks about itself. One of the first things I was told when I arrived was that we are 'transparent'.
