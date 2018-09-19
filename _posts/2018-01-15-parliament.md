@@ -13,9 +13,8 @@ imagesurl: /assets/images/parliament/
 ---
 
 {:class="postimagebig"}
-<img src="{{page.imagesurl}}small/UKP-Alexa-Artwork-1200.png"
-  alt="UK Parliament logo"
-  data-echo="{{page.imagesurl}}UKP-Alexa-Artwork-1200.png">
+<img src="{{page.imagesurl}}UKP-Alexa-Artwork-1200.png"
+  alt="UK Parliament logo">
 
 
 The vast majority of UK citizens think Parliament is important to a healthy democracy. But only 1/3 say they understand how it works, and even fewer say it does a good job representing their interests. [(Source - PDF)](https://assets.ctfassets.net/rdwvqctnt75b/29mtXLpqqsIyiMa24QqUa4/157873def28828c1764bea7098bba28a/report__audit-of-political-engagement-14.pdf)
@@ -23,8 +22,8 @@ The vast majority of UK citizens think Parliament is important to a healthy demo
 This is the challenge which Parliament faces. Political disengagement is a broad, unwieldy problem which has many causes. It can't be tackled in one go. But there are sensible places to start.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/graph-sketch-small.png"
-alt="A sketch of a graph I did when I first joined, showing my hypothesis about election cycles and Parliamentary work" data-echo="{{page.imagesurl}}graph-sketch-small.jpg">
+<img src="{{page.imagesurl}}graph-sketch-small.png"
+alt="A sketch of a graph I did when I first joined, showing my hypothesis about election cycles and Parliamentary work">
 *A sketch of a graph I did when I first joined, showing my hypothesis about election cycles and Parliamentary work*
 
 Most people think of Parliament once every four years or so - at election time. However, the work it does between elections is what affects people the most. There's an opportunity to be clearer about what this work is and how it affects people in a more timely way.
@@ -34,8 +33,8 @@ Most people think of Parliament once every four years or so - at election time. 
 Parliament's current website doesn't get close to articulating this. It was born in a time when the goal was to 'be digital', rather than to serve people's needs. It is a place where vast quantities of stuff is published for people to comb through, and closer to a digital leaflet than a service provider.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/current-site.png"
-alt="The current website. Unresponsive, cluttered and from a different era." data-echo="{{page.imagesurl}}current-site.jpg">
+<img src="{{page.imagesurl}}current-site.png"
+alt="The current website. Unresponsive, cluttered and from a different era.">
 *The current website. Unresponsive, cluttered and from a different era.*
 
 I believe that this publishing mentality stems from the way Parliament talks about itself. One of the first things I was told when I arrived was that we are 'transparent'.
@@ -45,8 +44,8 @@ I believe that this publishing mentality stems from the way Parliament talks abo
 There are also over 50 different microsites, reflecting our own complex internal divisions, rather than being organised around peoples needs.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/old-beta.png"
-alt="UK Parliament beta screenshot from 2017" data-echo="{{page.imagesurl}}old-beta.png">
+<img src="{{page.imagesurl}}old-beta.png"
+alt="UK Parliament beta screenshot from 2017">
 *How the beta website looked when I joined the team*
 
 A few weeks before I started at Parliament the team launched a basic beta website. This was a proof of concept for a dynamic digital service built on top of structured data, rather than the current CMS driven publishing model - an important step towards being able to show people information according to their mental models.
@@ -60,8 +59,8 @@ We've worked alongside the Data and Search team from the start, to ensure we avo
 As our research showed that our most common touchpoint with the public was via their MP we decided to start there. We built an agile multidisciplinary team to work on a backlog of needs people have related to MPs.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/vision-small.png"
-alt="Previous iPlayer homepage screenshot" data-echo="{{page.imagesurl}}vision-small.jpg">
+<img src="{{page.imagesurl}}vision-small.png"
+alt="Previous iPlayer homepage screenshot" >
 *The team vision pinned above our team area*
 
 Our team vision, written together, is that:
@@ -70,8 +69,8 @@ Anyone can find the people that make up Parliament, understand the work they do 
 ## Helping people find their MP
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/Find-MP-prototype.png"
-alt="An early Find my MP prototype" data-echo="{{page.imagesurl}}Find-MP-prototype.png">
+<img src="{{page.imagesurl}}Find-MP-prototype.png"
+alt="An early Find my MP prototype">
 *An early 'find my MP' prototype*
 
 One of the first things we made was a tool to find your MP.  Postcode was found to be the most natural method for people. We also made a few other ways to find them, such as by region, to cater for people such as those without a permanent address.
@@ -83,15 +82,15 @@ However, people struggled to understand what we'd made. The tool came at an unex
 All they needed was some key information about the person to intuitively 'check' themselves. I redesigned our header, at the same time defining a scalable pattern for our headers. This has now been incorporated into our design system.
 
 {:class="postimagebig"}
-<img src="{{page.imagesurl}}small/mp-and-constit.png"
-alt="Our MP page, and matching constituency page" data-echo="{{page.imagesurl}}mp-and-constit.jpg">
+<img src="{{page.imagesurl}}mp-and-constit.png"
+alt="Our MP page, and matching constituency page">
 *Our MP page, and matching constituency page*
 
 We split information related to the constituency, which had historically been lumped on the same page, onto a separate one. This better matches peoples mental models and allows us to do more with the constituency pages, such as show a boundary map and former MPs.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/calling-card-component.png"
-alt="The calling card component" data-echo="{{page.imagesurl}}calling-card-component.png">
+<img src="{{page.imagesurl}}calling-card-component.png"
+alt="The calling card component" >
 *The calling card component in two different guises, in response to the context it's used in.*
 
 We also developed a flexible 'calling card' component, which is used across the site to point to MPs. This shows the role the MP holds which is most relevant to the information on the page. For example, if they answer a question on behalf of a gov department, we show their ministerial position.
@@ -114,8 +113,8 @@ I won't talk too much about this work, as it's been covered well [elsewhere](htt
 ## Finding the human side of Parliament
 
 {:class="postimagebig"}
-<img src="{{page.imagesurl}}small/MPsportraits1.png"
-alt="Some of the photos of MPs" data-echo="{{page.imagesurl}}MPsportraits1.png">
+<img src="{{page.imagesurl}}MPsportraits1.png"
+alt="Some of the photos of MPs">
 *Some of the photos of MPs*
 
 We know that a clear photograph is one of the ways they identify the person they're looking for. It's one of the most useful things on our current website.
@@ -123,8 +122,8 @@ We know that a clear photograph is one of the ways they identify the person they
 However, we also saw photos as an opportunity to present a more human side to Parliament. We worked with portrait photographer [Chris McAndrew](insert link) to capture a set of photos with both consistency and personality. A few months later we managed to get photos for most of the Lords, too. They even managed to [make the news](https://www.bbc.co.uk/news/uk-politics-parliaments-40755201) in their own right.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/cropped-downloads.png"
-alt="Each photographed MP or Lord has a media page to download various crops." data-echo="{{page.imagesurl}}cropped-downloads.png">
+<img src="{{page.imagesurl}}cropped-downloads.png"
+alt="Each photographed MP or Lord has a media page to download various crops.">
 *Each photographed MP or Lord has a media page to download various crops.*
 
 Part of our ethos is making everything we do reusable for others. We open source all our code and design patterns, and that should extend to our content too.
@@ -134,8 +133,8 @@ We know that journalists and MPs already use their portraits for many things. I 
 I also worked with our content designers to ensure the open license was easy to understand. We've since seen these used by a plethora of different people and outlets, as well as make the news in their own right.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/MPs-photos-in-use.png"
-alt="Telegraph front cover MPs" data-echo="{{page.imagesurl}}MPs-photos-in-use.jpg">
+<img src="{{page.imagesurl}}MPs-photos-in-use.png"
+alt="Telegraph front cover MPs">
 *The photos have been used in less celebratory ways, too. The Telegraph, for this front page, even photoshopped a photo of an MP we missed to look part of the set. See if you can spot it.*
 
 ## Roles
@@ -144,16 +143,16 @@ alt="Telegraph front cover MPs" data-echo="{{page.imagesurl}}MPs-photos-in-use.j
 MPs don't have a job description, and they each fulfil their duties in different ways. They usually have many different roles at once, and (if reelected) what they do can change radically over time. This leaves us with a whole lot of raw data to work with, and a potentially unwieldy page. I started exploring possible solutions by working with Research to look at people's goals when looking at  someone's roles.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/roles-sketches.png"
-alt="Some of the sketches I went through of a persons roles as a list" data-echo="{{page.imagesurl}}roles-sketches.png">
+<img src="{{page.imagesurl}}roles-sketches.png"
+alt="Some of the sketches I went through of a persons roles as a list">
 *Some of the sketches I went through of a persons roles as a list*
 
 
 Research told us that members of the public use it to understand how their MP is representing them in Parliament. And for journalists it's the kind of information that's great for writing profiles.
 
 {:class="postimagebig"}
-<img src="{{page.imagesurl}}small/roles-sentence.png"
-alt="Previous iPlayer homepage screenshot" data-echo="{{page.imagesurl}}roles-sentence.png">
+<img src="{{page.imagesurl}}roles-sentence.png"
+alt="Previous iPlayer homepage screenshot">
 *Some examples of the roles sentence.*
 
 From this, we understood that what's most important to people is what the person is doing in Parliament now. I designed a radically simple solution - translating their current roles into a plain english sentence. I worked with a content designer to get the feel of this sentence right, and we tried it out with people to make sure it made sense to them.
@@ -161,8 +160,8 @@ From this, we understood that what's most important to people is what the person
 We saw that this sentence could be useful for a wide number of journeys that cross the MPs and Lords pages - for example, they provide helpful context when looking to contact them, and help a citizen understand what their MP does everyday in Parliament.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}small/new-roles-page.png"
-alt="MPs new roles page" data-echo="{{page.imagesurl}}new-roles-page.png">
+<img src="{{page.imagesurl}}new-roles-page.png"
+alt="MPs new roles page">
 *The roles page. As this historical information serves a niche need, we've split it onto its own page.*
 
 For past roles, we tried two things - grouping by role type, or a timeline. Unfortunately we didn't have the budget for a round of lab testing, so we put a couple of prototypes out on twitter with some questions. This is far from perfect research practice, but it's better than putting something out blind.
