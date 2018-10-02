@@ -22,7 +22,7 @@ The vast majority of UK citizens think Parliament is important to a healthy demo
 This is the challenge which Parliament faces. Political disengagement is a broad, unwieldy problem which has many causes. It can't be tackled in one go. But there are sensible places to start.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}graph-sketch-small.png"
+<img src="{{page.imagesurl}}graph-sketch-small.jpg"
 alt="A sketch of a graph I did when I first joined, showing my hypothesis about election cycles and Parliamentary work">
 *A sketch of a graph I did when I first joined, showing my hypothesis about election cycles and Parliamentary work*
 
@@ -33,7 +33,7 @@ Most people think of Parliament once every four years or so - at election time. 
 Parliament's current website doesn't get close to articulating this. It was born in a time when the goal was to 'be digital', rather than to serve people's needs. It is a place where vast quantities of stuff is published for people to comb through, and closer to a digital leaflet than a service provider.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}current-site.png"
+<img src="{{page.imagesurl}}current-site.jpg"
 alt="The current website. Unresponsive, cluttered and from a different era.">
 *The current website. Unresponsive, cluttered and from a different era.*
 
@@ -59,7 +59,7 @@ We've worked alongside the Data and Search team from the start, to ensure we avo
 As our research showed that our most common touchpoint with the public was via their MP we decided to start there. We built an agile multidisciplinary team to work on a backlog of needs people have related to MPs.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}vision-small.png"
+<img src="{{page.imagesurl}}vision-small.jpg"
 alt="Previous iPlayer homepage screenshot" >
 *The team vision pinned above our team area*
 
@@ -82,7 +82,7 @@ However, people struggled to understand what we'd made. The tool came at an unex
 All they needed was some key information about the person to intuitively 'check' themselves. I redesigned our header, at the same time defining a scalable pattern for our headers. This has now been incorporated into our design system.
 
 {:class="postimagebig"}
-<img src="{{page.imagesurl}}mp-and-constit.png"
+<img src="{{page.imagesurl}}mp-and-constit.jpg"
 alt="Our MP page, and matching constituency page">
 *Our MP page, and matching constituency page*
 
@@ -133,7 +133,7 @@ We know that journalists and MPs already use their portraits for many things. I 
 I also worked with our content designers to ensure the open license was easy to understand. We've since seen these used by a plethora of different people and outlets, as well as make the news in their own right.
 
 {:class="postimage"}
-<img src="{{page.imagesurl}}MPs-photos-in-use.png"
+<img src="{{page.imagesurl}}MPs-photos-in-use.jpg"
 alt="Telegraph front cover MPs">
 *The photos have been used in less celebratory ways, too. The Telegraph, for this front page, even photoshopped a photo of an MP we missed to look part of the set. See if you can spot it.*
 
