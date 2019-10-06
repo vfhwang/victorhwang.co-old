@@ -7,7 +7,7 @@ permalink: /about/
 
 {:class="portrait"}
 ![Victor Hwang]({{ "/assets/images/about/victorPortrait.png"}})
-Hello, I’m Victor. Right now I’m one of the lead product designers at Farewill, where we’re working to change the way people think about death.
+Hello, I’m Victor. Right now I’m one of the lead product designers at Farewill, where we’re working to change the way people deal with death.
 
 I aim to promote the use of design and research as a better way to understand and tackle complex problems.
 
