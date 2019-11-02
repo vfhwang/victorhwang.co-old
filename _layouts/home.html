@@ -54,12 +54,20 @@
 			<li class="bigbullet" style="color:#001d9c">
 				<p class="title">Farewill - Weeknotes</p>
 			</li></ul>
+
+			{% assign sorted = (site.categories.weeknotes | sort: 'date') | reverse %}
+			{% for item in sorted %}
+			<p>
+				<a href="{{post.url}}">{{post.title}}</a>
+			</p>
+			{% endfor %}
+<!-- 
 			{% for post in site.categories.weeknotes %}
 	
 	<p>
 		<a href="{{post.url}}">{{post.title}}</a>
 	</p>
-	{% endfor %}
+	{% endfor %} -->
 
 </div>
 
