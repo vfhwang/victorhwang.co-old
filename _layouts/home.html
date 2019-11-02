@@ -55,6 +55,12 @@
 				<p class="title">Farewill - Weeknotes</p>
 			</li></ul>
 
+			{% assign sorted = (site.categories.weeknotes | sort: 'date') | reverse %}
+			{% for item in sorted %}
+			<p>
+				<a href="{{post.url}}">{{post.title}}</a>
+			</p>
+			{% endfor %}
 
 </div>
 
