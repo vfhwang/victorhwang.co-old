@@ -14,7 +14,6 @@ I aim to promote the use of design and research as a better way to understand an
 Before this I was working at  UK Parliament, and before that the BBC. I’ve also done stints at <a target="_blank" href="https://mettle-studio.com/">Mettle</a>, <a target="_blank" href="https://commonindustry.co.uk/">Common Industry</a>, <a target="_blank" href="https://sugru.com/">Sugru</a> and <a target="_blank" href="http://moderndesignreview.com/">Modern Design Review</a>.
 
 
-Want to work together? Talk to me —
 
 <a href="mailto:{{site.email}}">{{site.email}}</a>
 
