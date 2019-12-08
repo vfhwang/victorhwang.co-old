@@ -41,21 +41,20 @@
 
 	<header class="sectiontitle">
 	  <h1 class="homelink">{{ site.title }}</h1>
-	  <p class="contactlink"><a href="mailto:vfhwang@gmail.com">vfhwang@gmail.com</a></p>
 	</header>
 
 
-	<section class="projects leftcolumn">
+	<section class="projects">
 
-	<p class="intro leftcolumn">{{ site.description }} <a href="/about">More info</a></p>
+	<p class="intro">{{ site.description }} <a href="/about">More info</a></p>
 
-	<div class="postinfo leftcolumn">
+	<div class="postinfo">
 		<ul>
-			<li class="bigbullet" style="color:#001d9c">
+			<li class="bigbullet" style="color:#6FCF97">
 				<p class="title">Farewill - Weeknotes</p>
 			</li></ul>
 
-			{% for post in site.categories.weeknotes reversed %}
+			{% for post in site.categories.weeknotes %}
 			<p>
 				<a href="{{post.url}}">{{post.title}}</a>
 			</p>
@@ -63,19 +62,17 @@
 
 </div>
 
-
+<!-- 
 	  {% for post in site.categories.casestudies %}
 
 
 	    <div class="postinfo leftcolumn"><ul><a href="{{post.url}}" style="color:#{{ post.colour }}"><li class="bigbullet" style="color:#{{ post.colour }}"><p class="title">{{post.title}}</p></li></a></ul><p>{{post.description}}
 				<a href="{{post.url}}">View case study</a>
-				<!-- <a href="#">Coming soon</a> -->
 			</p></div>
 
-	  {% endfor %}
+	  {% endfor %} -->
 
 </section>
-<footer>Victor Hwang 2019</footer>
 
 </section>
 
