@@ -148,7 +148,7 @@ background-color: #242832;
 }
 
 p{
-text-indent: 4em;
+text-indent: 3em;
 }
 
 
@@ -190,8 +190,8 @@ padding-bottom:80px;
 }
 
 .main{
-margin:0 auto 40px;
-padding:0 30px;
+margin:0 auto 20px;
+padding:0 20px;
 }
 
 .journal{
@@ -200,10 +200,13 @@ padding-bottom:80px;
 
 }
 
+.intro{
+  padding:0 0 60px 0;
+}
 
 .sectiontitle{
 text-align: left;
-padding:16px 0 40px;
+padding:16px 0 20px;
 }
 
 
@@ -226,11 +229,12 @@ position: relative;
 text-decoration: none;
 }
 
-/*
+
 img{
 align-self:baseline;
 position:relative;
-} */
+max-width: 100%;
+}
 
 
 li{
