@@ -15,7 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Victor Hwang
 email: vfhwang@gmail.com
-description: "I'm a designer that designs things."
+description: | 
+ I'm a designer, currently making services and products with Farewill. 
+ I help people, organisations and things solve problems. 
+ I believe in thinking through making. 
 # baseurl: "http://victorhwang.co" # the subpath of your site, e.g. /blog
 # url: "http://victorhwang.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
