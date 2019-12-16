@@ -44,7 +44,6 @@
 	</header>
 
 
-	<section class="projects">
 
 	<p class="intro">I'm a designer, currently making services and products with Farewill. </p>
 	<p class="intro">I help people, organisations and things solve problems. </p>
@@ -53,32 +52,26 @@
 
 	<img class="handaxe" src="assets/images/home/handaxe.png">
 
-	<div class="postinfo">
+	<section class="worknote">
+		<div class="worklogo farewill">
+			<img src="/assets/logos/farewill.svg" alt="Farewill logo">
+		</div>
+		<div class="details">
+		<h3>How do you change the way the world deals with death</h3>
+
 		<ul>
-			<li class="bigbullet" style="color:#fefefe">
-				<p class="title">Farewill - Weeknotes</p>
-			</li></ul>
+			<li>A new service for couples to get their wills done together. This now accounts for over half of wills revenue. <a href="https://medium.com/farewill/wills-for-couples-a-look-at-how-design-works-at-farewill-f800d377d503">Read blog post</a></li>
+			<li>Redesigned sign up process for getting a will. Resulting in 60% more people starting to write their will.</li>
+			<li>Led the consolidation of our three services - Wills, Probate and Cremation - into one website. A key step in making Farewill the first brand for death.</li>
+			<li>Read more about what I do at Farewill in my <a href="/weeknotes">weeknotes</a></li>
+		</ul>
+		</div>
+	</section>
 
-			{% for post in site.categories.weeknotes %}
-			<p>
-				<a href="{{post.url}}">{{post.title}}</a>
-			</p>
-			{% endfor %}
+	<img class="handaxe" src="assets/images/home/handaxe2.png">
 
-</div>
-
-<!-- 
-	  {% for post in site.categories.casestudies %}
-
-
-	    <div class="postinfo leftcolumn"><ul><a href="{{post.url}}" style="color:#{{ post.colour }}"><li class="bigbullet" style="color:#{{ post.colour }}"><p class="title">{{post.title}}</p></li></a></ul><p>{{post.description}}
-				<a href="{{post.url}}">View case study</a>
-			</p></div>
-
-	  {% endfor %} -->
-
-</section>
-
+	<div class="colophon"><p>Each divider on this website is a late neolithic flint axe head <a href="https://commons.wikimedia.org/w/index.php?title=Special:Search&limit=250&offset=0&profile=default&search=flint+axe+head&advancedSearch-current=%7B%7D&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1&searchToken=92um7qb8uftwzbvvannjenis8">(Source)</a>.</p>
+		<p>Thinking through making.</p></div>
 </section>
 
 
@@ -89,7 +82,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
 	<script src="/assets/init.js" type="text/javascript"></script>
-	<!-- {% include lazyload.html %} -->
 
 
 
