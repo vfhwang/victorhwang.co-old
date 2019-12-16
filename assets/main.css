@@ -152,8 +152,9 @@ max-width: 1800px;
   max-width: 800px;
 }
 
-.longform p{
+.longform p, .longform li, .longform h3, .longform h1{
   margin-bottom: 1em;
+  font-size:23px
 }
 
 
@@ -177,13 +178,6 @@ a:hover{
 color:#EDBCFF;
 }
 
-
-
-ul{
-list-style: none;
-/* display:inline-block;
-padding-left:82px; */
-}
 
 .contactlink{
 display:inline;
@@ -262,10 +256,6 @@ max-width: 100%;
 }
 
 
-li{
-line-height:1;
-}
-
 ol{
 list-style:decimal inside none;
 border-top:;
@@ -340,34 +330,121 @@ padding-bottom:12px;
 .weeknoteslist > li {
   list-style-type: none;
   padding:0;
+  margin:0;
   line-height:inherit;
 }
 
+.colophon{
+  font-size:12px;
+  text-align: center;
+  margin:0 0 3em 0;
+}
+
+.worknote{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.details > ul{
+  list-style: disc;
+  padding-left:2em;
+}
+
+li, h3{
+  margin:0 0 .5em;
+  line-height:1.1;
+}
+
+
+.details{
+  margin:0 2em 0 0;
+  width:100%;
+  /* display:flex; */
+}
+
+.worklogo img{
+  position: absolute;
+  /* left: 50%; */
+  top: 50%;
+  /* transform: translateX(50%); */
+  transform: translateY(-50%);
+  width:150px;
+}
+
+.worklogo{
+  /* width:100%; */
+  display:flex;
+  margin:0 0 1em 0;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  position:relative;
+  height:200px;
+}
+
+.farewill{
+  background-color:#FEDF4E;
+  border-radius: 0.4em;
+}
 
 
 @media only screen and (min-width: 600px) {
 
 
-  .intro, .sectiontitle, .postinfo{
+  body, .intro, .sectiontitle, .postinfo{
     font-size:30px;
   }
 
+  .worklogo img{
+    width:200px;
+  }
+
+  .worklogo{
+    height:300px;
+
+  }
+ 
 }
 
 @media only screen and (min-width: 900px) {
 
 
-  .intro, .sectiontitle, .postinfo{
+  body, .intro, .sectiontitle, .postinfo{
     font-size:38px;
   }
 
+
+
+  
 }
 
 @media only screen and (min-width: 1300px) {
 
 
-  .intro, .sectiontitle, .postinfo{
+ body, .intro, .sectiontitle, .postinfo{
     font-size:46px;
   }
 
+  .worknote{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .worklogo{
+    width:30%;
+    display:flex;
+    margin:0 1em 0 2em;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    position:relative;
+    height:initial;
+  }
+
+
+  
+  .details{
+    margin:0 2em 0 0;
+    width:70%;
+    /* display:flex; */
+  }
 }
