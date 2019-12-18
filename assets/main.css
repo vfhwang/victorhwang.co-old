@@ -380,11 +380,20 @@ li, h3{
   align-items: center; /* align vertical */
   position:relative;
   height:200px;
+  border-radius: 0.4em;
+
 }
 
 .farewill{
   background-color:#FEDF4E;
-  border-radius: 0.4em;
+}
+
+.parliament{
+  background-color:#373151;
+}
+
+.bbc{
+  background-color:#6FCF97;
 }
 
 
