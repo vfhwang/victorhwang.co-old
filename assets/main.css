@@ -198,12 +198,15 @@ padding-bottom:80px;
 
 }
 
-.intro, .postinfo{
+.intro, .postinfo, .about{
   font-size:24px;
   line-height: 110%;
-  text-indent: 2em;
   margin-bottom: 0;
 
+}
+
+.about{
+  margin-top:2em;
 }
 
 .postinfo{
@@ -418,21 +421,10 @@ li, h3{
 @media only screen and (min-width: 900px) {
 
 
-  body, .intro, .sectiontitle, .postinfo{
-    font-size:38px;
+  .worklogo img{
+    width:100px;
   }
 
-
-
-  
-}
-
-@media only screen and (min-width: 1300px) {
-
-
- body, .intro, .sectiontitle, .postinfo{
-    font-size:46px;
-  }
 
   .worknote{
     display:flex;
@@ -450,10 +442,26 @@ li, h3{
   }
 
 
-  
   .details{
     margin:0 2em 0 0;
     width:70%;
     /* display:flex; */
   }
+
+  
+}
+
+@media only screen and (min-width: 1300px) {
+
+
+
+  .worklogo img{
+    width:150px;
+  }
+
+ body, .intro, .sectiontitle, .postinfo{
+    font-size:46px;
+  }
+
+
 }
