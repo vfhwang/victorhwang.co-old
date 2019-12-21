@@ -198,17 +198,34 @@ padding-bottom:80px;
 
 }
 
-.intro, .postinfo{
+.intro, .postinfo, .about{
   font-size:24px;
   line-height: 110%;
-  text-indent: 2em;
   margin-bottom: 0;
 
+}
+
+.about{
+  margin-top:2em;
 }
 
 .postinfo{
   text-indent: 0;
 
+}
+
+.list{
+  list-style: disc;
+  margin-left:1em;
+  margin-bottom:.5em;
+}
+
+.list li{
+  margin-bottom:.5em;
+}
+
+.otherweeks{
+  margin:2em 0 0;
 }
 
 .handaxe{
@@ -217,6 +234,12 @@ padding-bottom:80px;
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
 
+}
+
+
+
+.karaokelarge{
+  display:none;
 }
 
 .sectiontitle{
@@ -418,21 +441,10 @@ li, h3{
 @media only screen and (min-width: 900px) {
 
 
-  body, .intro, .sectiontitle, .postinfo{
-    font-size:38px;
+  .worklogo img{
+    width:100px;
   }
 
-
-
-  
-}
-
-@media only screen and (min-width: 1300px) {
-
-
- body, .intro, .sectiontitle, .postinfo{
-    font-size:46px;
-  }
 
   .worknote{
     display:flex;
@@ -450,10 +462,34 @@ li, h3{
   }
 
 
-  
   .details{
     margin:0 2em 0 0;
     width:70%;
     /* display:flex; */
   }
+
+  .karaokesmall{
+    display:none;
+  }
+
+  .karaokelarge{
+    display:block;
+  }
+
+  
+}
+
+@media only screen and (min-width: 1300px) {
+
+
+
+  .worklogo img{
+    width:150px;
+  }
+
+ body, .intro, .sectiontitle, .postinfo{
+    font-size:46px;
+  }
+
+
 }
