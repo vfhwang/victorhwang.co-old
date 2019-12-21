@@ -214,12 +214,32 @@ padding-bottom:80px;
 
 }
 
+.list{
+  list-style: disc;
+  margin-left:1em;
+  margin-bottom:.5em;
+}
+
+.list li{
+  margin-bottom:.5em;
+}
+
+.otherweeks{
+  margin:2em 0 0;
+}
+
 .handaxe{
   padding: 30px 0;
   width: 100%;
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
 
+}
+
+
+
+.karaokelarge{
+  display:none;
 }
 
 .sectiontitle{
@@ -446,6 +466,14 @@ li, h3{
     margin:0 2em 0 0;
     width:70%;
     /* display:flex; */
+  }
+
+  .karaokesmall{
+    display:none;
+  }
+
+  .karaokelarge{
+    display:block;
   }
 
   
