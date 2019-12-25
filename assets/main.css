@@ -381,7 +381,7 @@ padding-bottom:12px;
 .worknote{
   display:flex;
   flex-direction: column;
-
+  text-align: left;
 }
 
 .details > ul{

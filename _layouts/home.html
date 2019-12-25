@@ -6,7 +6,7 @@
 	<title>{{ site.title }}</title>
 	<link rel="stylesheet" href="/assets/main.css">
   <!-- <script type="text/javascript" src="/assets/outline.js-master/outline.js" async></script> -->
-  <script type="text/javascript" src="/assets/scripts.js" async></script>
+  <!-- <script type="text/javascript" src="/assets/scripts.js" async></script> -->
 
 
 	<!-- favicon -->
@@ -31,25 +31,25 @@
 	{% seo %}
 
 </head>
-<body>
+<body data-barba="wrapper">
 
-	<div id="barba-wrapper">
-		<div class="barba-container">
 
 <section class="main">
 
 
-	<header class="sectiontitle">
-	  <h1 class="homelink">{{ site.title }}</h1>
-	</header>
+		<header class="sectiontitle">
+			<h1 class="homelink"><a href="/index.html">{{ site.title }}</a></h1>
+		  </header>
 
 
-<div class="intro">
-	<p>I'm a designer, currently making services and products with Farewill. </p>
-	<p>I help people, organisations and things solve problems. </p>
-	<p>I believe in thinking through making.</p>
-	<p><a href="/about">More information</a></p>
-</div>
+<main data-barba="container" data-barba-namespace="home">
+		
+	<section class="intro">
+		<p>I'm a designer, currently making services and products with Farewill. </p>
+		<p>I help people, organisations and things solve problems. </p>
+		<p>I believe in thinking through making.</p>
+		<p><a href="/about">More information</a></p>
+	</setcion>
 
 	<img class="bitmap" src="assets/images/home/handaxe.png">
 
@@ -112,17 +112,14 @@
 
 	<div class="colophon tinytext"><p>Each divider on this website is a late neolithic flint axe <a href="https://commons.wikimedia.org/w/index.php?title=Special:Search&limit=250&offset=0&profile=default&search=flint+axe+head&advancedSearch-current=%7B%7D&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1&searchToken=92um7qb8uftwzbvvannjenis8">(Source)</a>.</p>
 		<p>Thinking through making.</p></div>
+
+	</div>
+
+</main>
 </section>
 
 
 
-	</div>
-
-</div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
-	<script src="/assets/init.js" type="text/javascript"></script>
 
 
 

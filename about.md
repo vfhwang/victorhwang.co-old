@@ -12,12 +12,10 @@ permalink: /about/
 
 
 </div>
-<!-- <div class="about"> -->
 Before Farewill I worked at UK Parliament, and before that the BBC. I've also done stints at <a target="_blank" href="https://mettle-studio.com/">Mettle</a>, <a target="_blank" href="https://commonindustry.co.uk/">Common Industry</a>, <a target="_blank" href="https://sugru.com/">Sugru</a> and <a target="_blank" href="http://moderndesignreview.com/">Modern Design Review</a>.
 
 
 Send me a letter (<a href="mailto:{{site.email}}">{{site.email}}</a>) or follow me on twitter (<a href="https://twitter.com/{{site.twitter.username}}">{{site.twitter.username}}</a>). 
-<!-- </div> -->
 
 <img class="bitmap karaokesmall" src="/assets/images/about/karaoke-profile-small.png">
 <img class="bitmap karaokelarge" src="/assets/images/about/karaoke-profile.png">

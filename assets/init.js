@@ -1,60 +1,106 @@
-document.addEventListener('DOMContentLoaded', function (e) {
-  Barba.Pjax.start()
-})
+import barba from '@barba/core';
 
 
-// var FadeTransition = Barba.BaseTransition.extend({
-//   start: function() {
-//     /**
-//      * This function is automatically called as soon the Transition starts
-//      * this.newContainerLoading is a Promise for the loading of the new container
-//      * (Barba.js also comes with an handy Promise polyfill!)
-//      */
+// basic default transition (with no rules and minimal hooks)
+barba.init({
+  transitions: [{
+    leave({ current, next, trigger }) {
+      // do something with `current.container` for your leave transition
+      // then return a promise or use `this.async()`
+    },
+    enter({ current, next, trigger }) {
+      // do something with `next.container` for your enter transition
+      // then return a promise or use `this.async()`
+    }
+  }]
+});
 
-//     // As soon the loading is finished and the old page is faded out, let's fade the new page
-//     Promise
-//       .all([this.newContainerLoading, this.fadeOut()])
-//       .then(this.fadeIn.bind(this));
-//   },
+// dummy example to illustrate rules and hooks
+barba.init({
+  transitions: [{
+    name: 'dummy-transition',
 
-//   fadeOut: function() {
-//     /**
-//      * this.oldContainer is the HTMLElement of the old Container
-//      */
+    // apply only when leaving `[data-barba-namespace="home"]`
+    from: 'home',
 
-//     return $(this.oldContainer).animate({ opacity: 0 }).promise();
-//   },
+    // apply only when transitioning to `[data-barba-namespace="products | contact"]`
+    to: {
+      namespace: [
+        'products',
+        'contact'
+      ]
+    },
 
-//   fadeIn: function() {
-//     /**
-//      * this.newContainer is the HTMLElement of the new Container
-//      * At this stage newContainer is on the DOM (inside our #barba-container and with visibility: hidden)
-//      * Please note, newContainer is available just after newContainerLoading is resolved!
-//      */
+    // // apply only if clicked link contains `.cta`
+    // custom: ({ current, next, trigger })
+    //   => trigger.classList && trigger.classList.contains('cta'),
 
-//     var _this = this;
-//     var $el = $(this.newContainer);
+    // do leave and enter concurrently
+    sync: true,
 
-//     $(this.oldContainer).hide();
-
-//     $el.css({
-//       visibility : 'visible',
-//       opacity : 0
-//     });
-
-//     $el.animate({ opacity: 1 }, 100, function() {
-//       /**
-//        * Do not forget to call .done() as soon your transition is finished!
-//        * .done() will automatically remove from the DOM the old Container
-//        */
-
-//       _this.done();
-//     });
-//   }
-// });
+    // available hooks…
+    beforeOnce() {},
+    once() {},
+    afterOnce() {},
+    beforeLeave() {},
+    leave() {},
+    afterLeave() {},
+    beforeEnter() {},
+    enter() {},
+    afterEnter() {}
+  }]
+});
 
 
+var FadeTransition = Barba.BaseTransition.extend({
+  start: function() {
+    /**
+     * This function is automatically called as soon the Transition starts
+     * this.newContainerLoading is a Promise for the loading of the new container
+     * (Barba.js also comes with an handy Promise polyfill!)
+     */
 
-// Barba.Pjax.getTransition = function() {
-//   return FadeTransition;
-// };
+    // As soon the loading is finished and the old page is faded out, let's fade the new page
+    Promise
+      .all([this.newContainerLoading, this.fadeOut()])
+      .then(this.fadeIn.bind(this));
+  },
+
+  fadeOut: function() {
+    /**
+     * this.oldContainer is the HTMLElement of the old Container
+     */
+
+    return $(this.oldContainer).animate({ opacity: 0 }).promise();
+  },
+
+  fadeIn: function() {
+    /**
+     * this.newContainer is the HTMLElement of the new Container
+     * At this stage newContainer is on the DOM (inside our #barba-container and with visibility: hidden)
+     * Please note, newContainer is available just after newContainerLoading is resolved!
+     */
+
+    var _this = this;
+    var $el = $(this.newContainer);
+
+    $(this.oldContainer).hide();
+
+    $el.css({
+      visibility : 'visible',
+      opacity : 0
+    });
+
+    $el.animate({ opacity: 1 }, 100, function() {
+      /**
+       * Do not forget to call .done() as soon your transition is finished!
+       * .done() will automatically remove from the DOM the old Container
+       */
+
+      _this.done();
+    });
+  }
+});
+
+
+
