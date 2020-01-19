@@ -508,5 +508,9 @@ li, h3{
     font-size:46px;
   }
 
+  .longform{
+    font-size:32px;
+    max-width: 800px;
+  }
 
 }
