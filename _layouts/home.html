@@ -44,72 +44,48 @@
 
 <main data-barba="container" data-barba-namespace="home">
 		
-	<section class="intro">
+
+	<section>
+		<div class="bit">
 		<p>I'm a designer, currently making services and products with Farewill. </p>
 		<p>I help people, organisations and things solve problems. </p>
 		<p>I believe in thinking through making.</p>
-		<p><a href="/about">More information</a></p>
-	</setcion>
-
-	<img class="bitmap" src="assets/images/home/handaxe.png">
-
-	<section class="worknote">
-		<div class="worklogo farewill">
-			<img src="/assets/logos/farewill.svg" alt="Farewill logo">
+		</div>		
+		<div class="bit">
+		<p>I occasionally write notes about what I’m up to. {% for post in site.categories.weeknotes limit:1 %}<a href="{{ post.url }}">Read them here</a>{% endfor %}</p>
 		</div>
-		<div class="details">
-		<h3>How do you change the way the world deals with death</h3>
-
-		<ul>
-			<li>A new service for couples to get their wills done together. This now accounts for over half of wills revenue. <a href="https://medium.com/farewill/wills-for-couples-a-look-at-how-design-works-at-farewill-f800d377d503">Read blog post</a></li>
-			<li>Redesigned sign up process for getting a will. Resulting in 60% more people starting to write their will.</li>
-			<li>Led the consolidation of our three services - Wills, Probate and Cremation - into one website. A key step in making Farewill the first brand for death.</li>
-			<li>Read more about what I do at Farewill in my {% for post in site.categories.weeknotes limit:1 %}<a href="{{ post.url }}">weeknotes</a>{% endfor %}</li>
-
-		</ul>
-
-		</div>
+		<a href="mailto:{{site.email}}">{{site.email}}</a>
 	</section>
 
 
-	<img class="bitmap" src="assets/images/home/handaxe2.png">
+	<img class="bitmap" src="assets/images/home/handaxe.png">
 
-	<section class="worknote">
-		<div class="worklogo parliament">
-			<img src="/assets/logos/UKparliament.svg" alt="UK Parliament logo">
-		</div>
-		<div class="details">
-		<h3>How do you make Parliament and democracy easier to engage with</h3>
+	<section>
+		<h2 class="sectiontitle">History</h1>
 
-		<ul>
-			<li>Research and design of new pages for MPs and Lords.</a></li>
-			<li>Development of the first design system, building out of the first visual identity for UK Parliament (working with <a href="https://someoneinlondon.com/projects/the-first-visual-identity-for-uk-parliament">Someone</a>).</li>
-			<li>Release of the first cohesive portraits of MPs and Lords, wholeheartedly used and abused by the british press. <a href="https://pds.blog.parliament.uk/2017/08/09/mps-portraits-designing-for-great-content/">Read blog post</a></li>
-		</ul>
-		</div>
+			<ul>
+				<li>Farewill — 2019 to now</li>
+				<li>UK Parliament — 2017 to 2019</li>
+				<li>BBC — 2015 to 2017</li>
+			</ul>
+	</section>
+
+
+	<img class="bitmap" src="assets/images/home/handaxe3.png">
+
+	<section>
+		<h2 class="sectiontitle">Links</h1>
+
+			<ul>
+				<li><a href="/weeknotes">Weeknotes</a></li>
+				<li><a href="https://twitter.com/{{site.twitter.username}}">Twitter</a></li>
+				<li><a href="https://www.linkedin.com/in/vfhwang/">LinkedIn</a></li>
+			</ul>
 	</section>
 
 
 	<img class="bitmap" src="assets/images/home/handaxe4.png">
 	
-	<section class="worknote">
-		<div class="worklogo bbc">
-			<img src="/assets/logos/BBC.svg" alt="BBC logo">
-		</div>
-		<div class="details">
-		<h3>In a post-broadcast world, what interface should a public broadcaster have</h3>
-
-		<ul>
-			<li>Redesign of the iPlayer homepage. Combining data, research and editorial expertise to futureproof the front page of a service used by millions. </li>
-			<li>Investigating new ways that the weather could be communicated.</li>
-			<li>Development of a styleguide for how notifications are written across the BBC.</li>
-		</ul>
-		</div>
-	</section>
-
-	<img class="bitmap" src="assets/images/home/handaxe3.png">
-
-
 	<div class="colophon tinytext"><p>Each divider on this website is a late neolithic flint axe <a href="https://commons.wikimedia.org/w/index.php?title=Special:Search&limit=250&offset=0&profile=default&search=flint+axe+head&advancedSearch-current=%7B%7D&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1&searchToken=92um7qb8uftwzbvvannjenis8">(Source)</a>.</p>
 		<p>Thinking through making.</p></div>
 
