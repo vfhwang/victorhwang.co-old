@@ -20,7 +20,7 @@ Send me a letter (<a href="mailto:{{site.email}}">{{site.email}}</a>) or follow 
 <img class="bitmap karaokesmall" src="/assets/images/about/karaoke-profile-small.png">
 <img class="bitmap karaokelarge" src="/assets/images/about/karaoke-profile.png">
 
-<div class="colophon"><p>Left to right - Simon (delivery manager), Bryony (developer), Dia (product manager), Marttiina (user researcher), Victor (that's me, a designer), Jenna (developer).</p><p>Work is best when it's karaoke.</p></div>
+<div class="colophon"><p>Left to right - Simon (delivery manager), Bryony (developer), Dia (product manager), Marttiina (user researcher), Victor (that's me, a designer), Jenna (developer).</p></div>
 
 
 
