@@ -123,6 +123,11 @@ background-color: #242832;
 /* max-width: 650px; */
 }
 
+.two-column-list > li{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
 
 .longform{
   max-width: 1200px;
@@ -413,6 +418,12 @@ li, h3{
   .main{
     margin:48px;
     }
+
+    .two-column-list > li{
+      display:grid;
+      grid-template-columns:1fr 2fr;
+    }
+    
 
 
   /* body, .intro, .sectiontitle, .postinfo{
