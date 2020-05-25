@@ -129,18 +129,12 @@ background-color: #242832;
 }
 
 
-.longform{
-  max-width: 1200px;
-}
 
 .longform p, .longform li, .longform h3{
   margin-bottom: 1em;
-
 }
 
-.longform p{
-  /* text-indent: 3em; */
-}
+
 
 pre{
 text-align: center;
@@ -163,43 +157,14 @@ color:#EDBCFF;
 }
 
 
-.contactlink{
-display:inline;
-}
 
-.workitem{
-padding-bottom:80px;
-}
+
 
 .main{
 margin:16px;
 max-width:690px;
 }
 
-.journal{
-background-color: #C8C8C8;
-padding-bottom:80px;
-
-}
-
-.postinfo, .about, section{
-  line-height: 1.3;
-  margin-bottom: 0;
-
-}
-
-
-
-.about{
-  margin-top:2em;
-}
-
-
-
-.postinfo{
-  text-indent: 0;
-
-}
 
 .list{
   list-style: disc;
@@ -281,64 +246,13 @@ ol > li {
   padding-bottom:12px;
 }
 
-.post, .postimage, .projects, .journalpost{
+/* .post, .postimage, .projects, .journalpost{
 margin:24px 0 30px;
 }
 
+ */
 
 
-.postimage, .postimagebig{
-  grid-column: col-start 1 / span 12 !important;
-  margin:24px 0 0;
-  padding-bottom:12px;
-
-} 
-
-
-
-.journalimages img{
-width:100%;
-}
-
-.portrait img{
-width:80px!important;
-display:inline;
-margin-right:8px;
-border-radius: 4px;
-}
-
-.portrait{
-display:inline;
-}
-
-
-
-.secondparaabout{
-margin-top:24px;
-}
-
-
-
-.journalcontent p{
-padding-bottom:12px;
-}
-
-
-
-.competitoranalysis{
-  grid-column: col-start 1 / span 12;
-  border-bottom: 1px solid #E8E8E8;
-  padding-bottom:24px;
-  margin-bottom:24px;
-}
-
-.competitoranalysis > li > p{
-  /* font-size:1.25rem; */
-}
-
-.competitoranalysis > li{
-  padding-bottom:12px;
-}
 
 
 .weeknoteslist > li {
@@ -373,45 +287,6 @@ li, h3{
 }
 
 
-.details{
-  margin:0 2em 0 0;
-  width:100%;
-  /* display:flex; */
-}
-
-.worklogo img{
-  position: absolute;
-  /* left: 50%; */
-  top: 50%;
-  /* transform: translateX(50%); */
-  transform: translateY(-50%);
-  width:150px;
-}
-
-.worklogo{
-  /* width:100%; */
-  display:flex;
-  margin:0 0 1em 0;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
-  position:relative;
-  height:200px;
-  border-radius: 0.4em;
-
-}
-
-.farewill{
-  background-color:#FEDF4E;
-}
-
-.parliament{
-  background-color:#373151;
-}
-
-.bbc{
-  background-color:#6FCF97;
-}
-
 
 @media only screen and (min-width: 600px) {
 
@@ -424,80 +299,6 @@ li, h3{
       grid-template-columns:1fr 2fr;
     }
     
-
-
-  /* body, .intro, .sectiontitle, .postinfo{
-    font-size:30px;
-  } */
-
-  .worklogo img{
-    width:200px;
-  }
-
-  .worklogo{
-    height:300px;
-
-  }
  
 }
 
-@media only screen and (min-width: 900px) {
-
-
-  .worklogo img{
-    width:100px;
-  }
-
-
-  .worknote{
-    display:flex;
-    flex-direction: row;
-  }
-
-  .worklogo{
-    width:30%;
-    display:flex;
-    margin:0 1em 0 2em;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
-    position:relative;
-    height:initial;
-  }
-
-
-  .details{
-    margin:0 2em 0 0;
-    width:70%;
-    /* display:flex; */
-  }
-
-  .karaokesmall{
-    display:none;
-  }
-
-  .karaokelarge{
-    display:block;
-  }
-
-
-  
-}
-
-@media only screen and (min-width: 1300px) {
-
-
-
-  .worklogo img{
-    width:150px;
-  }
-
- /* body, .intro, .sectiontitle, .postinfo{
-    font-size:46px;
-  } */
-
-  .longform{
-    /* font-size:32px; */
-    max-width: 800px;
-  }
-
-}
