@@ -188,11 +188,14 @@ max-width:690px;
 
 }
 
+.karaoke{
+  padding: 0 0 48px;
+  width: 100%;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
 
-
-.karaokelarge{
-  display:none;
 }
+
 
 .sectiontitle{
   color:#D3A4FF; !important
