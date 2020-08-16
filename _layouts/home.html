@@ -49,10 +49,10 @@
 
 	<section>
 		<div class="bit">
-			<p>This is my personal site. You can see my design portfolio at <a href="http://vcfh.work">vcfh.work</a>.</p>
+			<p>Hello! This is my personal website. You can see my design portfolio at <a href="http://vcfh.work">vcfh.work</a>.</p>
 		</div>		
 		<div class="bit">
-		<p>I write {% for post in site.categories.weeknotes limit:1 %}<a href="{{ post.url }}">occasional notes</a>{% endfor %} about what I've been up to. </p>
+		<!-- <p>I write {% for post in site.categories.weeknotes limit:1 %}<a href="{{ post.url }}">occasional notes</a>{% endfor %} about what I've been up to. </p> -->
 		</div>
 		<a href="mailto:{{site.email}}">{{site.email}}</a>
 	</section>
@@ -60,13 +60,27 @@
 	<img class="bitmap" src="assets/images/home/handaxe3.png">
 
 	<section>
-		<h2 class="sectiontitle">Links</h1>
+		<h2 class="sectiontitle">Posts</h2>
 
-			<ul>
-				<li><a href="http://vcfh.work">Portfolio</a></li>
-				<li><a href="/weeknotes">Weeknotes</a></li>
-				<li><a href="https://twitter.com/{{site.twitter.username}}">Twitter</a></li>
+			<div class="bit">
+
+			<ul class="weeknoteslist">
+				{% for post in site.categories.posts%}
+				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+				{% endfor %}
 			</ul>
+		</div>
+			<div class="bit">
+
+			<h2 class="sectiontitle">Weeknotes (on permenant haitus)</h2>
+				<ul class="weeknoteslist">
+					{% for post in site.categories.weeknotes %}
+					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+				
+
 	</section>
 
 	<img class="bitmap" src="assets/images/home/handaxe4.png">
