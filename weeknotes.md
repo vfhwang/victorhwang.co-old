@@ -1,11 +1,11 @@
 ---
-layout: about
+layout: post
 title: Weeknotes
 permalink: /weeknotes/
 ---
 
 <div class="postinfo">
-		<h2 class="title">Weeknotes</h2>
+		<!-- <h2 class="title">Weeknotes</h2> -->
 
         {% for post in site.categories.weeknotes %}
             <p>

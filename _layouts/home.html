@@ -48,28 +48,28 @@
 		
 
 	<section>
+		<h2 class="sectiontitle">Posts</h2>
+
 		<div class="bit">
+
+		<ul class="weeknoteslist">
+			{% for post in site.categories.posts%}
+			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+		<!-- <div class="bit">
 			<p>Hello! This is my personal website. You can see my design portfolio at <a href="http://vcfh.work">vcfh.work</a>.</p>
-		</div>		
+		</div>		 -->
 		<div class="bit">
 		<!-- <p>I write {% for post in site.categories.weeknotes limit:1 %}<a href="{{ post.url }}">occasional notes</a>{% endfor %} about what I've been up to. </p> -->
 		</div>
-		<a href="mailto:{{site.email}}">{{site.email}}</a>
 	</section>
 
 	<img class="bitmap" src="assets/images/home/handaxe3.png">
 
 	<section>
-		<h2 class="sectiontitle">Posts</h2>
 
-			<div class="bit">
-
-			<ul class="weeknoteslist">
-				{% for post in site.categories.posts%}
-				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-				{% endfor %}
-			</ul>
-		</div>
 			<div class="bit">
 
 			<h2 class="sectiontitle">Weeknotes (on permenant hiatus)</h2>
@@ -103,7 +103,10 @@
 
 	<img class="bitmap" src="assets/images/home/handaxe.png">
 
+
 	<div class="colophon tinytext">
+		<a href="mailto:{{site.email}}">{{site.email}}</a>
+		<p>This is my personal website. You can see my design portfolio at <a href="http://vcfh.work">vcfh.work</a>.</p>
 		<p>Each divider on this website is a late neolithic flint axe. <a href="https://commons.wikimedia.org/w/index.php?title=Special:Search&limit=250&offset=0&profile=default&search=flint+axe+head&advancedSearch-current=%7B%7D&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1&searchToken=92um7qb8uftwzbvvannjenis8">(Source)</a></p>
 	</div>
 
